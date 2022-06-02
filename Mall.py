@@ -22,9 +22,7 @@ add_selectbox = st.header('Project Name: Mall Customer Segment!!!!')
 add_selectbox = st.sidebar.header('Name:Ajinkya Pramod Chate')
 add_selectbox = st.sidebar.header('Student ID: 41770')
 add_selectbox = st.sidebar.markdown("------------------------------")
-add_selectbox = st.sidebar.markdown('Developed By:')
-add_selectbox = st.sidebar.markdown('AV GROUP :sunglasses:')
-add_selectbox = st.sidebar.markdown("------------------------------")
+
 #----------------------------------------------------------------------------------------------------------------------------------------
 df = pd.read_csv('Mall_Customers.csv')
 st.write(df.head())
